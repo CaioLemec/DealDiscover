@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="logo" title="Deal Discover" src="public/handshake.svg" width="20%" />
+    <img alt="logo" title="Deal Discover" src="public/handshake.svg" width="10%" />
 </h3>
 
 <h1 align="center">Deal Discover</h1>
@@ -18,7 +18,7 @@
 
 This project utilizes the Oxylabs API to provide detailed information about Amazon promotions in Brazil. 
 Perfect for Black Friday, Deal Discover saves time by automating the search for significant deals, helping users quickly identify the best buying opportunities. 
-Simplify your online shopping experience and don't miss out on great promotions! 🚀🛍️ 
+Simplify your online shopping experience and don't miss out on great promotions! 
 
 ### Demo:
 
