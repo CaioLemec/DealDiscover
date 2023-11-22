@@ -1,0 +1,81 @@
+.dealContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid var(--gray-400);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 0 auto;
+    max-width: 20rem;
+    height: 25rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.primeInfo {
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    top: 0.15rem;
+    right: 0.5rem;
+    text-align: end;
+    width: 100%;
+    color: var(--blue-500);
+    font-weight: bold;
+}
+
+.amazonLogo {
+    transform: translateY(15%);
+}
+
+.dealImage {
+    margin-top: 3rem;
+    width: 10rem;
+    height: 12rem;
+    object-fit: cover; 
+}
+
+.dealContainer > span {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: start;
+    margin-top: 1rem;
+}
+
+.priceDetails {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: start;
+}
+
+.priceContainer > span {
+    margin: 0.15rem 0;
+}
+
+.priceContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.priceContainer > span:first-child {
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.sparkleIcon {
+    color: var(--yellow-500);
+    transform: translateY(12%);
+    margin-left: 0.15rem;
+}
+
+.priceDetails > span {
+    color: var(--blue-500);
+}
+

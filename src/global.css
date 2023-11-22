@@ -1,0 +1,28 @@
+:root {
+  --white: #fff;
+  --gray-400: #8d8d99;
+  --gray-900: #121214;
+  --yellow-500: #ffc500;
+  --blue-500: #3363EA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--gray-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Barlow", sans-serif;
+  font-size: 400;
+  font-size: 1rem;
+}
