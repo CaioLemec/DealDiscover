@@ -51,11 +51,15 @@ Make sure you have the following installations:
     VITE_OXYLABS_API_USERNAME="api_username"
     VITE_OXYLABS_API_PASSWORD="api_password"
     ```
-4. Start the application in <strong>dev</strong> mode:
+4. Start the server by using:
     ```bash
-    npm run dev
+    npm run backend
     ```
-5. Ensure compatibility by checking the versions of dependencies.
+    5. Start the frontend:
+    ```bash
+    npm run frontend
+    ```
+6. Ensure compatibility by checking the versions of dependencies.
 ---
 
 ## License
