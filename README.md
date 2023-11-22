@@ -55,7 +55,7 @@ Make sure you have the following installations:
     ```bash
     npm run backend
     ```
-    5. Start the frontend:
+5. Start the frontend:
     ```bash
     npm run frontend
     ```
